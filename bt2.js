@@ -1,6 +1,6 @@
 // 1. Viết hàm với tham số đầu vào là 1 số bất kỳ, kiểm tra và in ra màn hình là số chẵn hay lẽ. Ví dụ: Số 3 là số lẽ.
     function input(a){
-        if(a%2 == 0){
+        if(a % 2 == 0){
             console.log(a+' la so chan');
             return 1;
         }
@@ -18,7 +18,7 @@
 // 1.2 Dựa vào hàm ở bài 1, kiểm tra thêm số đó là số âm hay dương. Ví dụ: Số 3 là số âm và lẽ.
 
 function check(a){
-        if(a<0){
+        if(a < 0){
                     if(input(a))
                         {
                             console.log(a + ' la so am chan');
@@ -122,7 +122,7 @@ month(12);
 // 2. Viết hàm với đầu vào là 1 số bất kỳ, kiểm tra số đó và in ra là số nguyên dương hay số nguyên âm, nếu không phải cả 2 thì in ra không phải số cần kiểm tra.
 function checkInt(a){
     if(Number.isInteger(a)){
-        if(a>=0){
+        if(a >= 0){
             console.log(a + ' la so nguyen duong');
         }
         else
